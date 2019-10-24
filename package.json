@@ -1,0 +1,54 @@
+{
+  "name": "react-timeout-hooks",
+  "version": "0.1.0",
+  "description": "Hooks for React providing versions of setTimeout etc. that cancels when unmounted.",
+  "homepage": "https://github.com/ybroeker/react-timeout-hooks",
+  "author": "ybroeker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ybroeker/react-timeout-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "native",
+    "timer",
+    "timeout",
+    "hooks"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ybroeker/react-timeout-hooks/issues"
+  },
+  "main": "lib/index.js",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "files": [
+    "lib/index.js",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "7.6.3",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.1.0",
+    "babel-polyfill": "6.26.0",
+    "husky": "3.0.9",
+    "jest": "24.1.0",
+    "jest-dom": "3.5.0",
+    "jshint": "2.10.2",
+    "react-test-renderer": "16.10.2",
+    "react-testing-library": "6.0.4",
+    "standard": "14.3.1"
+  }
+}
